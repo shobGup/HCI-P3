@@ -95,7 +95,8 @@ function App() {
   const updateItemCount = (itemName, incrementValue, itemPrice) => {
     setItemCounts(prevCounts => {
       const newCounts = new Map(prevCounts);
-      newCounts.set(itemName, prevCounts.get(itemName) + incrementValue);
+      if (newCounts.get(itemName) > 0 || incrementValue > 0)
+        newCounts.set(itemName, prevCounts.get(itemName) + incrementValue);
       return newCounts;
     });
     
