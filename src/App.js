@@ -104,7 +104,7 @@ function App() {
     });
     
     // line sourced from: https://stackoverflow.com/questions/15762768/javascript-math-round-to-two-decimal-places
-    setSubtotal(prevSubtotal => +((prevSubtotal + (itemPrice * incrementValue)).toFixed(2)));
+    setSubtotal(prevSubtotal => +(Math.max(prevSubtotal + (itemPrice * incrementValue), 0).toFixed(2)));
   };
 
   const clearItemCount = () => {
