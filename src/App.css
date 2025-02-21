@@ -1,0 +1,114 @@
+html, .menu {
+  color: black;
+  background-color: rgb(255, 255, 224);
+}
+
+.text-container {
+  margin: 5vh;
+}
+
+.catchphrase {
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2.8vh;
+  color: #DE5B9E;
+}
+
+.image-col {
+  padding: .6vh;
+}
+
+.menu-image {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 1.2vh;
+  object-fit: cover;
+}
+
+.info-col {
+  padding: 0.6vh;
+}
+
+.menu-item {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.food-name {
+  text-align: left;
+  font-size: 1.8vh;
+  font-weight: bold;
+  padding: 0.3vh 0.6vh;
+}
+
+.food-description {
+  text-align: left;
+  font-size: 1.4vh;
+  padding: 0.3vh 0.6vh;
+  font-weight: lighter;
+}
+
+.price-button-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.4vh;
+  text-align: left;
+  padding: 0.3vh 0.6vh;
+}
+
+.add-button {
+  height: 3vh;
+  width: 25vw;
+  padding: 0.2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.2vh;
+}
+
+.operator-button {
+  border-radius: 2.2vh;
+  width: 6vw;
+  padding: 0.1vh;
+  margin: 1.0vw;
+  background-color: #f396c6;
+}
+
+.payment-row {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subtotal {
+  font-size: 2vh;
+}
+
+.order-button, .clear-button {
+  border-radius: 2.0vh;
+  margin: 2vw;
+  width: 5vw;
+  background-color: #ddf0ff;
+}
+
+#uniqueColorText {
+  color: #005EA6;
+  font-family: 'Brush Script MT';
+  font-size: 2.4vh;
+}
+
+#logo {
+  width: 12.5vh;
+  height: 12.5vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
